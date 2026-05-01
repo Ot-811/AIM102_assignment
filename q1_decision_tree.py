@@ -80,5 +80,5 @@ for depth in depths:
     plt.xlabel("Feature 1")
     plt.ylabel("Feature 2")
 
-    plt.savefig(f"decision_boundary_depth_{depth}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"q1_decision_boundary_depth_{depth}.png", dpi=300, bbox_inches='tight')
     plt.show()
